@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-atrium_cleanup">
+        <li class="text">Atrium_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-atrium-3_cleanup">
+        <li class="text">Atrium-3_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-vorlesungssahl-26_27_cleanup">
+        <li class="text">Vorlesungssahl 26_27_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-gang---erdgeschoss_cleanup">
+        <li class="text">Gang - Erdgeschoss_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-foyer_cleanup">
+        <li class="text">Foyer_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-foyer_habr_cleanup">
+        <li class="text">Foyer_HaBR_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-gang-1stock_cleanup">
+        <li class="text">Gang-1.Stock_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-2stock-treppe_cleanup">
+        <li class="text">2.Stock-Treppe_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-2stock_cleanup">
+        <li class="text">2.Stock_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-2stock-gang1_cleanup">
+        <li class="text">2.Stock-Gang1_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-2stock-gang2_cleanup">
+        <li class="text">2.Stock-Gang2_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-aula-datenverarbeitung_cleanup">
+        <li class="text">Aula (Datenverarbeitung)_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-digi-trans-lab-1_cleanup">
+        <li class="text">Digi-Trans-Lab-1_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-digi-trans-lab---3d-drucker_cleanup">
+        <li class="text">Digi-Trans-Lab - 3D-Drucker_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-digi-trans-lab---think-space_cleanup">
+        <li class="text">Digi-Trans-Lab - Think Space_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-gruppenraum---f230_cleanup">
+        <li class="text">Gruppenraum - F230_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-have-a-break-raum">
+        <li class="text">Have-a-Break-Raum</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-kaffeekche_cleanup">
+        <li class="text">Kaffeeküche_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-ki-lab-1_cleanup">
+        <li class="text">KI Lab-1_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-ki-lab-2_cleanup">
+        <li class="text">KI Lab-2_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-smart-lab-1_cleanup">
+        <li class="text">Smart Lab-1_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-vorlesungsraum---f226_cleanup">
+        <li class="text">Vorlesungsraum - F226_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-vorlesungsraum---f227_cleanup">
+        <li class="text">Vorlesungsraum - F227_cleanup</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-vorlesungsraum---f228_cleanup">
+        <li class="text">Vorlesungsraum - F228_cleanup</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>

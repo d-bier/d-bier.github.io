@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-atrium_cleanup",
-      "name": "Atrium_cleanup",
+      "id": "0-atrium",
+      "name": "Atrium",
       "levels": [
         {
           "tileSize": 256,
@@ -30,205 +30,36 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.9701903858707333,
-          "pitch": 0.07882144685062009,
+          "yaw": 1.1019594550257672,
+          "pitch": 0.025641081043442426,
           "rotation": 0.7853981633974483,
-          "target": "1-atrium-3_cleanup"
+          "target": "1-atrium---2"
         },
         {
-          "yaw": 2.557926984245963,
-          "pitch": 0.09953140555622575,
-          "rotation": 0,
-          "target": "3-gang---erdgeschoss_cleanup"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-atrium-3_cleanup",
-      "name": "Atrium-3_cleanup",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.7126202777398127,
-          "pitch": 0.12587211213250882,
-          "rotation": 0,
-          "target": "0-atrium_cleanup"
-        },
-        {
-          "yaw": -0.3363499956868292,
-          "pitch": 0.08885932886600223,
-          "rotation": 0,
-          "target": "3-gang---erdgeschoss_cleanup"
-        },
-        {
-          "yaw": -3.1083838627040787,
-          "pitch": 0.09614997343484788,
-          "rotation": 0.7853981633974483,
-          "target": "2-vorlesungssahl-26_27_cleanup"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-vorlesungssahl-26_27_cleanup",
-      "name": "Vorlesungssahl 26_27_cleanup",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.21418755262146405,
-          "pitch": 0.09047602831053503,
-          "rotation": 0.7853981633974483,
-          "target": "3-gang---erdgeschoss_cleanup"
-        },
-        {
-          "yaw": 1.6456265387351294,
-          "pitch": 0.0723662720201439,
-          "rotation": 0,
-          "target": "1-atrium-3_cleanup"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-gang---erdgeschoss_cleanup",
-      "name": "Gang - Erdgeschoss_cleanup",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.0606720128965534,
-          "pitch": 0.054237214912246756,
-          "rotation": 0.7853981633974483,
-          "target": "2-vorlesungssahl-26_27_cleanup"
-        },
-        {
-          "yaw": 1.5157987549254344,
-          "pitch": -0.20475375251686678,
-          "rotation": 0,
-          "target": "4-foyer_cleanup"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-foyer_cleanup",
-      "name": "Foyer_cleanup",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.980912916165071,
-          "pitch": 0.07738892872068703,
+          "yaw": 2.613610851790833,
+          "pitch": 0.12810560048310826,
           "rotation": 6.283185307179586,
-          "target": "5-foyer_habr_cleanup"
+          "target": "2-atrium---3"
         },
         {
-          "yaw": -1.0642106198488044,
-          "pitch": 0.11113890794839598,
-          "rotation": 0,
-          "target": "17-kaffeekche_cleanup"
+          "yaw": 2.061714120405192,
+          "pitch": -0.05407989007980518,
+          "rotation": 5.497787143782138,
+          "target": "3-foyer"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": -2.6743386368071036,
+          "pitch": 0.045267693557603295,
+          "title": "Haupteingang - Erdgeschoss",
+          "text": "Text"
+        }
+      ]
     },
     {
-      "id": "5-foyer_habr_cleanup",
-      "name": "Foyer_HaBR_cleanup",
+      "id": "1-atrium---2",
+      "name": "Atrium - 2",
       "levels": [
         {
           "tileSize": 256,
@@ -256,135 +87,98 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.39179126556358135,
-          "pitch": 0.5529961081283723,
+          "yaw": 1.0254661042401505,
+          "pitch": 0.27303441541857154,
           "rotation": 5.497787143782138,
-          "target": "16-have-a-break-raum"
+          "target": "0-atrium"
         },
         {
-          "yaw": -2.3805763526898076,
-          "pitch": 0.2601327968256708,
+          "yaw": -0.3246616744562072,
+          "pitch": 0.0975486235975982,
           "rotation": 0.7853981633974483,
-          "target": "4-foyer_cleanup"
+          "target": "2-atrium---3"
         },
         {
-          "yaw": 3.030539450153226,
-          "pitch": 0.09435011439885699,
-          "rotation": 4.71238898038469,
-          "target": "17-kaffeekche_cleanup"
-        },
-        {
-          "yaw": -3.0976755319686955,
-          "pitch": -0.004278909046153245,
-          "rotation": 0,
-          "target": "6-gang-1stock_cleanup"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "6-gang-1stock_cleanup",
-      "name": "Gang-1.Stock_cleanup",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.7181282973603125,
-          "pitch": 0.09928449075225743,
+          "yaw": -0.6502139463389724,
+          "pitch": 0.09910211102380728,
           "rotation": 5.497787143782138,
-          "target": "4-foyer_cleanup"
+          "target": "7-vorlesungssaal-26_27"
         },
         {
-          "yaw": 1.5296323652984043,
-          "pitch": 0.20236299623050868,
-          "rotation": 0,
-          "target": "11-aula-datenverarbeitung_cleanup"
-        },
-        {
-          "yaw": -3.0738498597584716,
-          "pitch": -0.1031454824067417,
-          "rotation": 0,
-          "target": "7-2stock-treppe_cleanup"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "7-2stock-treppe_cleanup",
-      "name": "2.Stock-Treppe_cleanup",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.30340092400991026,
-          "pitch": 0.07983094176313799,
+          "yaw": -3.0967084352648087,
+          "pitch": 0.05353376672557175,
           "rotation": 0.7853981633974483,
-          "target": "8-2stock_cleanup"
+          "target": "7-vorlesungssaal-26_27"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-atrium---3",
+      "name": "Atrium - 3",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
         },
         {
-          "yaw": -2.289660878796095,
-          "pitch": 0.07942567027157565,
-          "rotation": 4.71238898038469,
-          "target": "9-2stock-gang1_cleanup"
+          "tileSize": 512,
+          "size": 512
         },
         {
-          "yaw": -0.7767821505728119,
-          "pitch": 0.08457042736375264,
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.38019000691816984,
+          "pitch": 0.30248352327248895,
+          "rotation": 0.7853981633974483,
+          "target": "0-atrium"
+        },
+        {
+          "yaw": 1.9162126065001734,
+          "pitch": 0.0790031782032834,
           "rotation": 5.497787143782138,
-          "target": "21-vorlesungsraum---f226_cleanup"
+          "target": "1-atrium---2"
+        },
+        {
+          "yaw": 1.516670201751145,
+          "pitch": -0.14635600243127023,
+          "rotation": 0,
+          "target": "3-foyer"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 3.0429826054321323,
+          "pitch": 0.10304261453705443,
+          "title": "Toiletten",
+          "text": "Text"
+        },
+        {
+          "yaw": -2.0058792724858208,
+          "pitch": 0.13992011266814863,
+          "title": "Zentrum Digitalisierung",
+          "text": "<a href=\"https://www.hhz.de/de/standort/zentrum-digitalisierung/\">Zentrum Digitalisierung : Herman Hollerith Zentrum (hhz.de)</a>"
+        }
+      ]
     },
     {
-      "id": "8-2stock_cleanup",
-      "name": "2.Stock_cleanup",
+      "id": "3-foyer",
+      "name": "Foyer",
       "levels": [
         {
           "tileSize": 256,
@@ -412,29 +206,54 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.8163708446984277,
-          "pitch": 0.10258053430508696,
+          "yaw": 0.0905404307533324,
+          "pitch": 0.16913861597221036,
+          "rotation": 3.141592653589793,
+          "target": "2-atrium---3"
+        },
+        {
+          "yaw": -1.0658850868500132,
+          "pitch": 0.10622312451179106,
+          "rotation": 0,
+          "target": "6-kaffekche"
+        },
+        {
+          "yaw": -1.9808430134395003,
+          "pitch": 0.06996990706967665,
           "rotation": 5.497787143782138,
-          "target": "7-2stock-treppe_cleanup"
+          "target": "5-have-a-break-raum"
         },
         {
-          "yaw": -1.255551962684084,
-          "pitch": 0.11024865131963146,
-          "rotation": 0,
-          "target": "12-digi-trans-lab-1_cleanup"
-        },
-        {
-          "yaw": -1.8905653747768731,
-          "pitch": 0.10808672044257506,
-          "rotation": 0,
-          "target": "20-smart-lab-1_cleanup"
+          "yaw": -0.16692957334693048,
+          "pitch": 0.061021276495750953,
+          "rotation": 0.7853981633974483,
+          "target": "4-gang-1-stockwerk"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 2.8096967216024673,
+          "pitch": 0.14719458588549017,
+          "title": "Eingang - 1. Stockwerk",
+          "text": "Text"
+        },
+        {
+          "yaw": -1.6627309729503104,
+          "pitch": 0.07238268576415408,
+          "title": "Büros der Professoren",
+          "text": "Text"
+        },
+        {
+          "yaw": -0.5203759577719165,
+          "pitch": 0.08490330428535486,
+          "title": "Besprechungsraum",
+          "text": "Text"
+        }
+      ]
     },
     {
-      "id": "9-2stock-gang1_cleanup",
-      "name": "2.Stock-Gang1_cleanup",
+      "id": "4-gang-1-stockwerk",
+      "name": "Gang 1. Stockwerk",
       "levels": [
         {
           "tileSize": 256,
@@ -462,273 +281,29 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.2349632998623488,
-          "pitch": 0.070934885679927,
-          "rotation": 1.5707963267948966,
-          "target": "7-2stock-treppe_cleanup"
-        },
-        {
-          "yaw": -1.9458384702099316,
-          "pitch": 0.15685482386681926,
-          "rotation": 0,
-          "target": "10-2stock-gang2_cleanup"
-        },
-        {
-          "yaw": 0.8150071319649488,
-          "pitch": 0.1260768363718725,
+          "yaw": -2.6394328017997033,
+          "pitch": 0.22886486575589338,
           "rotation": 5.497787143782138,
-          "target": "22-vorlesungsraum---f227_cleanup"
-        },
-        {
-          "yaw": -2.252924655797232,
-          "pitch": 0.1357418846926315,
-          "rotation": 5.497787143782138,
-          "target": "15-gruppenraum---f230_cleanup"
+          "target": "3-foyer"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": -1.7425718699273336,
+          "pitch": 0.1037452628807003,
+          "title": "Toiletten",
+          "text": "Text"
+        },
+        {
+          "yaw": -2.5791750635310446,
+          "pitch": 0.03300992410744641,
+          "title": "Besprechungsraum",
+          "text": "Text"
+        }
+      ]
     },
     {
-      "id": "10-2stock-gang2_cleanup",
-      "name": "2.Stock-Gang2_cleanup",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.655473833525857,
-          "pitch": 0.1419728694261817,
-          "rotation": 5.497787143782138,
-          "target": "23-vorlesungsraum---f228_cleanup"
-        },
-        {
-          "yaw": -2.5741898784036543,
-          "pitch": 0.16371568194438169,
-          "rotation": 4.71238898038469,
-          "target": "18-ki-lab-1_cleanup"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "11-aula-datenverarbeitung_cleanup",
-      "name": "Aula (Datenverarbeitung)_cleanup",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.5826018993851143,
-          "pitch": 0.12615864046017933,
-          "rotation": 1.5707963267948966,
-          "target": "6-gang-1stock_cleanup"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "12-digi-trans-lab-1_cleanup",
-      "name": "Digi-Trans-Lab-1_cleanup",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.8157184940064193,
-          "pitch": 0.12459863624827605,
-          "rotation": 0,
-          "target": "8-2stock_cleanup"
-        },
-        {
-          "yaw": 1.017975441565591,
-          "pitch": 0.12410439710347276,
-          "rotation": 0,
-          "target": "14-digi-trans-lab---think-space_cleanup"
-        },
-        {
-          "yaw": 0.62820675564077,
-          "pitch": 0.13624729733583507,
-          "rotation": 0,
-          "target": "13-digi-trans-lab---3d-drucker_cleanup"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "13-digi-trans-lab---3d-drucker_cleanup",
-      "name": "Digi-Trans-Lab - 3D-Drucker_cleanup",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.8073519729442928,
-          "pitch": 0.18419900014656854,
-          "rotation": 7.0685834705770345,
-          "target": "12-digi-trans-lab-1_cleanup"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "14-digi-trans-lab---think-space_cleanup",
-      "name": "Digi-Trans-Lab - Think Space_cleanup",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.8166110230107355,
-          "pitch": 0.14777286973931325,
-          "rotation": 0,
-          "target": "12-digi-trans-lab-1_cleanup"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "15-gruppenraum---f230_cleanup",
-      "name": "Gruppenraum - F230_cleanup",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "16-have-a-break-raum",
+      "id": "5-have-a-break-raum",
       "name": "Have-a-Break-Raum",
       "levels": [
         {
@@ -755,43 +330,19 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "17-kaffeekche_cleanup",
-      "name": "Kaffeeküche_cleanup",
-      "levels": [
+      "linkHotspots": [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
+          "yaw": 1.5594911132164535,
+          "pitch": 0.007714385759491904,
+          "rotation": 0.7853981633974483,
+          "target": "3-foyer"
         }
       ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
       "infoHotspots": []
     },
     {
-      "id": "18-ki-lab-1_cleanup",
-      "name": "KI Lab-1_cleanup",
+      "id": "6-kaffekche",
+      "name": "Kaffeküche",
       "levels": [
         {
           "tileSize": 256,
@@ -819,79 +370,24 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.5730629937344567,
-          "pitch": 0.15943610890354165,
+          "yaw": 0.7715437891368939,
+          "pitch": 0.19602886619319904,
           "rotation": 0.7853981633974483,
-          "target": "10-2stock-gang2_cleanup"
+          "target": "3-foyer"
         }
       ],
-      "infoHotspots": []
-    },
-    {
-      "id": "19-ki-lab-2_cleanup",
-      "name": "KI Lab-2_cleanup",
-      "levels": [
+      "infoHotspots": [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
+          "yaw": -1.2641691818069773,
+          "pitch": 0.13273886382984657,
+          "title": "Büro Antje Resmini (Teamassistentin)",
+          "text": "Text"
         }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
+      ]
     },
     {
-      "id": "20-smart-lab-1_cleanup",
-      "name": "Smart Lab-1_cleanup",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "21-vorlesungsraum---f226_cleanup",
-      "name": "Vorlesungsraum - F226_cleanup",
+      "id": "7-vorlesungssaal-26_27",
+      "name": "Vorlesungssaal 26_27",
       "levels": [
         {
           "tileSize": 256,
@@ -919,78 +415,22 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.19943543437788946,
-          "pitch": 0.05552704209278225,
+          "yaw": 0.20585608990698745,
+          "pitch": 0.0663480941915573,
           "rotation": 0.7853981633974483,
-          "target": "7-2stock-treppe_cleanup"
+          "target": "2-atrium---3"
+        },
+        {
+          "yaw": 1.641500490072719,
+          "pitch": 0.03201620398791505,
+          "rotation": 5.497787143782138,
+          "target": "1-atrium---2"
         }
       ],
-      "infoHotspots": []
-    },
-    {
-      "id": "22-vorlesungsraum---f227_cleanup",
-      "name": "Vorlesungsraum - F227_cleanup",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "23-vorlesungsraum---f228_cleanup",
-      "name": "Vorlesungsraum - F228_cleanup",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "Rundgang HHZ",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
